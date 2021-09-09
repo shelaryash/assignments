@@ -5,16 +5,18 @@
 			html template
 		</title>
 		<style>
-		* {
-			margin:0px;
-			padding:0px;
-		}
+			* {
+				margin:0px;
+				padding:0px;
+				color:#000000;
+			}
 			body {
 				font-family:arial;
 				margin:0 auto;
+				
 				}
-				.page-wrapper{
-					width:1300px;
+				.main-wrapper{
+					max-width:1300px;
 					margin:auto;
 					padding-left:20px;
 					padding-right:20px;
@@ -23,10 +25,10 @@
 				float:left;
 			}
 			.header-wrapper{
-			width:1300px;
+			max-width:1300px;
 			margin:auto;
 			padding:20px 20px;
-		
+
 			}
 			.ul-wrapper {
 				float:right;
@@ -43,89 +45,102 @@
 				clear:both;
 			}
 			.header-banner-wrapper{
-				background-image: url("image5.jpeg");
-				padding:500px;
-				background-repeat:no-repeat;
-				background-size:cover;
+				position:;
 				text-align:center;
 			}
+			.header-banner{
+				height:750px;
+				width:100%;
+				position:relative;
+				top:0;
+				left:0;
+			}
+			.company-name{
+					margin: 0 auto;
+					position:absolute;
+					top: 50%;
+					left:0;
+					right: 0;
+					bottom:0;
+			}
 			
-		 .project-heading {
+		 .project-section-heading {
 				font-size:25px;
 				margin-top:70px;
 				margin-bottom:70px;
+				font-weight: normal;
 			}
-		 .project-img-wrapper {
-				width:100%;
+		 .project-section-img-wrapper {
+				max-width:100%;
 				padding:17px 0px 0px 0px;
 		    }
 		 .project-img img {
-				width:24%;
-				height:240px;
+				max-width:24%;
+				max-height:240px;
 				float:left;
 			
 			}
 		.project-img1 img {
-				width:24%;
-				height:240px;
-				float:left;
-				margin-left:17px;
+			max-width:24%;
+			max-height:240px;
+			float:left;
+			margin-left:17px;
 			
-			}	 
+		}	 
 		.project-img2 img {
-				width:24%;
-				height:240px;
+				max-width:24%;
+				max-height:240px;
 				float:left;
 				margin-left:17px;
 				
 			}
 		.project-img3 img {
-				width:24%;
-				height:240px;
+				max-width:24%;
+				max-height:240px;
 				float:left;				
 				margin-left:17px;
 			}				
 		.project-img4 img {
-				width:24%;
-				height:240px;
+				max-width:24%;
+				max-height:240px;
 				float:left;
 			}
 		.project-img5 img {
-				width:24%;
-				height:240px;
+				max-width:24%;
+				max-height:240px;
 				float:left;
 				margin-left:17px;
 			}		
 		.project-img6 img {
-				width:24%;
-				height:240px;
+				max-width:24%;
+				max-height:240px;
 				float:left;
 				margin-left:17px;
 			}		
 		.project-img7 img {
-				width:24%;
-				height:240px;
+				max-width:24%;
+				max-height:240px;
 				float:left;
 				margin-left:17px;
 			}
-		 .About-heading {
+		 .About-section-heading {
 				font-size:25px;
 				margin-top:80px;
 				margin-bottom:22px;
+				font-weight: normal;
 			}
-		 .About-sub-paragraph {
+		 .About-section-sub-paragraph {
 				font-size:14px;
 				line-height:1.4;
 				margin-top:20px;
 				margin-bottom:20px;
 			}
-		 .About-img {
-				width:23%;
+		 .person-information-img {
+				max-width:23%;
 				float:left;
 			}
-		 .About-img img {
-				width:310px;
-			}
+		 .person-information-img img {
+				max-width:310px;
 				font-size:23px;
 				font-weight:400;
 			} 
@@ -133,40 +148,45 @@
 				margin-top:20px;
 				color:grey;
 				margin-bottom:20px;
+
 			} 
 		 .bio {
 				line-height:20px;
 				font-size:15px;
 				margin-bottom:10px;
+				font-weight: normal;
 			}
-		 .About-img1 {
-				width:23%;
+		 .person-information-img1 {
+				max-width:23%;
 				margin-left:30px;
 				float:left;
 			}
-			 .About-img1 img {
-				width:310px;
+			 .person-information-img1 img {
+				max-width:310px;
 			}
-		 .About-img-wrapper img {
-				height:240px;
+		 .About-section-img-wrapper img {
+				max-height:240px;
 			}
 		 .name{
 				margin-top:10px;
 				font-size:23px;
+				font-weight: normal;
 			}
 		 .title {
 				margin-top:10px;
 				color:grey;
 				margin-top:20px;
 				margin-bottom:20px;
+				font-weight: normal;
 			}
 		 .bio {
 				line-height:1.4;
 				font-size:15px;
 				margin-bottom:15px;
+				font-weight: normal;
 			}
 		 .Contact-button {
-				width:98%;
+				max-width:98%;
 				border:none;
 				text-decoration:none;
 				color:#000000;
@@ -177,29 +197,30 @@
 				padding-top:5px;
 				padding-bottom:5px;
 			}
-		 .About-img2 {
-				width:23%;
+		 .person-information-img2 {
+				max-width:23%;
 				margin-left:30px;
 				float:left;
 			}
-		 .About-img2 img {
-				width:310px;
+		 .person-information-img2 img {
+				max-width:310px;
 			}
-		  .About-img3 {
-				width:22%;
+		  .person-information-img3 {
+				max-width:22%;
 				float:left;
 				margin-left:30px;
 			}
-		 .About-img3 img {
-				width:311px;
+		 .person-information-img3 img {
+				max-width:311px;
 			
 			}
-		  .contact-heading {
+		  .contact-section-heading {
 				font-size:25px;
 				margin-top:95px;
 				margin-bottom:25px;
+				font-weight: normal;
 			}
-		  .contact-sub-paragraph {
+		  .contact-section-sub-paragraph {
 				font-size:16px;
 				line-height:20px;
 				margin-top:20px;
@@ -222,9 +243,10 @@
 				color:#ffffff;
 				background-color:#000000;
 				text-decoration:none;
+				text-transform: uppercase;
 			}
 		 .footer-banner-wrapper img {
-				width:100%;
+			width:100%;
 	
 				margin-top:50px;
 				margin-bottom:10px;
@@ -245,6 +267,10 @@
 			width:100%;
 				color:grey;
 			}
+			a:link{
+				text-decoration: none;
+				color:#000000;
+			}
 		</style>
 	</head>
 	<body>
@@ -252,13 +278,27 @@
 	<!--header wrapper section start here -->
 		<div class="header-wrapper">
 			<div class="company-logo">
-			<a href="https://geexu.in/" target="_blank" ><img src="New Project2.jpg"  alt="company-logo"/></a>
+				<a href="https://geexu.in/" target="_blank" >
+					<img src="New Project2.jpg"  alt="company-logo"/>
+				</a>
 			</div>
 				<div class="ul-wrapper">
 					<ul>
-					<a href="https://geexu.in/" target="_blank"><li>Project </li></a>
-						<a href="https://geexu.in/" target="_blank">	<li>About </li></a>
-							<a href="https://geexu.in/" target="_blank"><li>Contact </li></a>
+							<li>
+								<a href="https://geexu.in/" target="_blank">
+									Project 
+								</a> 
+							</li>
+							<li>
+								<a href="https://geexu.in/" target="_blank">
+									About 
+								</a>
+							</li>
+							<li>
+								<a href="https://geexu.in/" target="_blank">
+									Contact
+								</a>
+							</li>
 					</ul>
 				</div>
 				<div class="clear"></div>
@@ -266,17 +306,19 @@
 		<!--header wrapper section end here -->
 		<!--header banner section start here -->
 		<div class="header-banner-wrapper">
-						<!--	<img src="New Project.jpg" alt="company-logo"  class="text-center"> -->
-				<a href="https://geexu.in/" target="_blank" ><img src="New Project2.jpg"  alt="company-logo"/></a>
+						<img src="image5.jpeg" alt="header-banner"  class="header-banner"/> 
+				<a href="https://geexu.in/" target="_blank" >
+					<img src="New Project2.jpg"  alt="company-logo" class="company-name"/>
+				</a>
 		</div>
 		<!--header banner sectionn end here -->
 		<!-- header section end here-->	
 		<!-- Project section end here-->	
-		<div class="page-wrapper">
-		<p class="project-heading">Project</p>
-		<hr class="hr" />
+		<div class="main-wrapper">
+			<h1 class="project-section-heading">Project</h1>
+			<hr class="hr" />
 		<!--projesct image section start here-->
-		<div class="project-img-wrapper">  
+		<div class="project-section-img-wrapper">  
 			<div class="project-img">
 				<img src="image1.jpeg" alt="project-img" />
 			</div>
@@ -292,7 +334,7 @@
 			<div class="clear"></div>
 		</div>
 		
-		<div class="project-img-wrapper">  
+		<div class="project-section-img-wrapper">  
 			<div class="project-img4">
 				<img src="image1.jpeg" alt="project-img4" />
 			</div>
@@ -311,27 +353,27 @@
 		<!--project image end here -->
 		<!-- Project section end here-->
 		<!-- About section start here -->
-		<p class="About-heading"> About </p>
+		<h1 class="About-section-heading"> About </h1>
 		<hr class="hr"/>
-		<p class="About-sub-paragraph">
+		<p class="About-section-sub-paragraph">
 			It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishingLorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here
 		</p>
-		<div class="About-img-wrapper">
-			<div class="About-img">
+		<div class="About-section-img-wrapper">
+			<div class="person-information-img">
 					<img src="image3.jpeg" alt="about-img"/>
-					<p class="name">John Doe</p>
-					<p class="title">CEO and Founder</p>
+					<h3 class="name">John Doe</h3>
+					<h3 class="title">CEO and Founder</h3>
 					<p class="bio">
 						that it has a more-or-less normal distribution of letters, that it has a more-or-less normal distribution of letters, 
 					</p>
 						<a href="https://geexu.in/" class="Contact-button" target="_blank">
-					Contact
+							Contact
 					</a>
 			</div>
-			<div class="About-img1" alt="about-img1">
+			<div class="person-information-img1" alt="about-img1">
 					<img src="image3.jpeg" />
-					<p class="name">John Doe</p>
-					<p class="title">CEO and Founder</p>
+					<h3 class="name">John Doe</h3>
+					<h3 class="title">CEO and Founder</h3>
 					<p class="bio">
 						that it has a more-or-less normal distribution of letters, that it has a more-or-less normal distribution of letters, 
 					</p> 
@@ -339,10 +381,10 @@
 						Contact
 					</a>
 			</div>
-			<div class="About-img2">
+			<div class="person-information-img2">
 					<img src="image3.jpeg" alt="about-img2" />
-					<p class="name">John Doe</p>
-					<p class="title">CEO and Founder</p>
+					<h3 class="name">John Doe</h3>
+					<h3 class="title">CEO and Founder</h3>
 					<p class="bio">
 						that it has a more-or-less normal distribution of letters, that it has a more-or-less normal distribution of letters, 
 					</p>
@@ -350,13 +392,13 @@
 						Contact
 					</a>
 			</div>
-			<div class="About-img3">
+			<div class="person-information-img3">
 					<img src="image3.jpeg" alt="about-img3"/>
-					<p class="name">John Doe</p>
-					<p class="title">CEO and Founder</p>
-					<p class="bio">
+					<h3 class="name">John Doe</h3>
+					<h3 class="title">CEO and Founder</h3>
+					<h3 class="bio">
 						that it has a more-or-less normal distribution of letters, that it has a more-or-less normal distribution of letters, 
-					</p>
+					</h3>
 					<a href="https://geexu.in/" class="Contact-button" target="_blank">
 						Contact
 					</a>
@@ -365,10 +407,10 @@
 		</div>
 		<!-- About section end here-->
 		<!--contact section start here-->
-		<p class="contact-heading">Contact</p>
+		<p class="contact-section-heading">Contact</p>
 		<hr class="hr" />
-		<div class="contact-wrapper">
-			<p class="contact-sub-paragraph">
+		<div class="contact-section-wrapper">
+			<p class="contact-section-sub-paragraph">
 				Lets get in touch and talk about your next project.
 			</p>
 			<div class="form-wrapper">
@@ -379,8 +421,8 @@
 					<input type="text" placeholder="comment"	class="form-input" />
 					<div class="button-wrapper">
 						<a href="https://geexu.in/" target="_blank" class="button">
-							SEND MESSAGE
-					</a>
+							Send message
+						</a>
 					</div>
 					</form>
 			</div>
@@ -392,7 +434,10 @@
 		</div>	
 	</div>
 			<div class="footer">
-				Powered by <a href="https://geexu.in/">w3.css</a>
+				Powered by 
+				<a href="https://geexu.in/">
+					w3.css
+				</a>
 			</div>
 		
 	</body>
