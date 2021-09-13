@@ -1,0 +1,292 @@
+			* {
+				margin:0px;
+				padding:0px;
+				color:#000000;
+			}
+			@font-face{
+				font-family:'roboto';
+				src: url( ../fonts/Roboto-Bold.ttf);
+				font-weight: 600;
+			}
+			@font-face{
+				font-family:'roboto';
+				src: (Roboto-Regular.ttf);
+				font-weight: 400;
+			}
+			
+			.main-wrapper {
+				max-width:1366px;
+				margin:auto;
+				padding-left:20px;
+				padding-right:20px;
+			}			
+			.company-logo {
+				float:left;
+			}
+			.header-wrapper {
+			max-width:1366px;
+			padding-top: 10px;
+			padding-bottom: 10px;
+			padding-left: 20px ;
+			padding-right: 20px;
+			} 
+			.ul-wrapper {
+				float:right;
+			}
+			.ul-wrapper ul li {
+				display:inline-block;
+				letter-spacing:6px;	
+				margin-right:20px;
+				font-size:17px;
+				font-weight:500;
+				color:#000000;
+			}
+			.clear {
+				clear:both;
+			}
+			.header-banner-wrapper {
+				text-align:center;
+			}
+			.header-banner {
+				height:670px;
+				width:100%;
+				position:relative;
+				top:0;
+				left:0;																			
+			}
+			.company-name {
+				margin: 0 auto;
+				position:absolute;
+				top: 50%;
+				left:0;
+				right: 0;
+				bottom:0;
+			}
+			.project-section-heading {
+				font-size:13px;
+				margin-top:70px;
+				margin-bottom:30px;
+				padding-bottom: 30px;
+				border-bottom: 2px solid #EDEDED;
+			}
+			.project-section-heading h1{
+				font-family: roboto;
+				font-weight: 600;
+			}
+			.project-section-img-wrapper {
+				max-width:100%;
+				padding-top: 50px;
+		    }
+			.project-section-img-wrapper1 {
+				padding-top: 17px;
+		    }	
+			.project-img img {
+				max-width:24%;
+				max-height:240px;
+				position: relative;
+				float:left;
+			}
+			.project-img1 img {
+				position: relative;
+				max-width:24%;
+				max-height:240px;
+				float:left;
+				margin-left:17px;
+			}	 
+			.image-name{
+				position: absolute;
+				background-color: #000000;
+				color: #ffffff;
+				padding:20px;
+			}
+			.project-img2 img {
+				max-width:24%;
+				max-height:240px;
+				float:left;
+				margin-left:17px;
+			}
+			.project-img3 img {
+				max-width:24%;
+				max-height:240px;
+				float:left;				
+				margin-left:17px;
+			}				
+			.project-img4 img {
+				max-width:24%;
+				max-height:240px;
+				float:left;
+			}
+			.project-img5 img {
+				max-width:24%;
+				max-height:240px;
+				float:left;
+				margin-left:17px;
+			}		
+			.project-img6 img {
+				max-width:24%;
+				max-height:240px;
+				float:left;
+				margin-left:17px;
+			}		
+			.project-img7 img {
+				max-width:24%;
+				max-height:240px;
+				float:left;
+				margin-left:17px;
+			}
+			.About-section-heading {
+				font-size:13px;
+				margin-top:80px;
+				margin-bottom:22px;
+				padding-bottom:30px;
+				border-bottom: 2px solid #EDEDED;
+				
+			}
+			.About-section-heading h1 {
+				font-weight: 600;
+				font-family: roboto;
+			}
+			
+			.About-section-sub-paragraph {
+				font-size:14px;
+				line-height:1.4;
+				margin-top:20px;
+				margin-bottom:20px;
+				font-family: roboto;
+				font-weight:400;
+			}
+			.person-information {
+				max-width:23%;
+				float:left;
+			}
+			.person-information img {
+				max-width:328px;
+				font-size:23px;
+				font-weight:400;
+			} 
+			.title {
+				margin-top:20px;
+				color:grey;
+				margin-bottom:20px;
+			} 
+			.bio {
+				line-height:20px;
+				font-size:15px;
+				margin-bottom:10px;
+				font-weight: normal;
+			}
+			.person-information-1 {
+				max-width:23%;
+				margin-left:30px;
+				float:left;
+			}
+			.person-information-1 img {
+				max-width:328px;
+			}
+			.About-section-img-wrapper img {
+				max-height:240px;
+			}
+			.name{
+				margin-top:10px;
+				font-size:23px;
+				font-weight: normal;
+			}
+			.title {
+				margin-top:10px;
+				color:grey;
+				margin-top:20px;
+				margin-bottom:20px;
+				font-weight: normal;
+			}
+			.bio {
+				line-height:1.4;
+				font-size:15px;
+				margin-bottom:15px;
+				font-weight: normal;
+			}
+			.Contact-button {
+				max-width:20%;
+				border:none;
+				text-decoration:none;
+				color:#000000;
+				text-align:center;
+				background-color:#EDEDED;
+				padding-left:42%;
+				padding-right:43%;
+				padding-top:5px;
+				padding-bottom:5px;
+			}
+			.person-information-2 {
+				max-width:23%;
+				margin-left:30px;
+				float:left;
+			}
+			.person-information-2 img {
+				max-width:328px;
+			}
+			.person-information-3 {
+				max-width:22%;
+				float:left;
+				margin-left:30px;
+			}
+			.person-information-3 img {
+				max-width:328px;
+			}
+			.contact-section-heading {
+				font-size:13px;
+				margin-top:95px;
+				margin-bottom:25px;
+				padding-bottom: 30px;
+				border-bottom: 2px solid #EDEDED;
+			}
+			.contact-section-heading h1{
+				font-weight: normal;
+			}
+			.contact-section-sub-paragraph {
+				font-size:16px;
+				line-height:20px;
+				margin-top:20px;
+			}
+			.form-input {
+				width:99%;
+				padding-top:10px;
+				padding-bottom:10px;
+				padding-left:8px;
+				margin-top:15px;
+				border:2px solid #EDEDED;
+				outline-style: none;
+			}		 
+			.button-wrapper{
+				margin-top:30px;
+			}
+		 .submit {						
+				padding:10px;
+				color:#ffffff;
+				background-color:#000000;
+				text-decoration:none;
+				text-transform: uppercase;
+				text-align: center;
+			}
+		 .footer-banner-wrapper img {
+				width:100%;
+				margin-top:50px;
+				margin-bottom:10px;
+				height: 730px;
+			}
+		 .footer {
+				background-color:#000000;
+				color:#ffffff;
+				text-align:center;
+				padding-top:30px;
+				padding-bottom:30px;
+				margin:0px;
+			}
+			.footer a {
+				text-decoration:none;
+				color:white;
+			}
+			
+			a:link{
+				text-decoration: none;
+				color:#000000;
+			}
