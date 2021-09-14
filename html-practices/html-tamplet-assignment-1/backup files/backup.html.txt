@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
 	<head>
-	<link rel="preconnect" href="https://fonts.googleapis.com"/>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
 		<title>
 			html template
 		</title>
-		<link rel="stylesheet" href="css file/style.css" /> 
+				<link rel="stylesheet" href="css/style.css"> 
 	</head>
 	<body>
 	<!-- header section start here-->
@@ -50,7 +50,7 @@
 		<!-- Project section end here-->	
 		<div class="main-wrapper">
 		<div class="project-section-heading">
-			</h1>
+			<h1>Project</h1>
 			</div>
 		<!--projesct image section start here-->
 		<div class="project-section-img-wrapper">  
@@ -60,9 +60,26 @@
 					Summer House
 				</div>
 			</div>
+			<div class="project-img1">
+				<img src="images/image1.jpeg"  alt="project-img1"/>
+					<div class="image-name">
+						Summer House
+					</div>
+			</div>
+			<div class="project-img2">
+				<img src="images/image1.jpeg" alt="project-img2" />
+			</div>
+			<div class="project-img3">
+				<img src="images/image1.jpeg" alt="project-img3"/>
+			</div>
+			<div class="clear"></div>
+		</div>
 		
-
-			<div class="project-img3">600;
+		<div class="project-section-img-wrapper1">  
+			<div class="project-img4">
+				<img src="images/image1.jpeg" alt="project-img4" />
+			</div>
+			<div class="project-img5">
 				<img src="images/image1.jpeg" alt="project-img5" />
 			</div>
 			<div class="project-img6">
@@ -77,13 +94,13 @@
 		<!--project image end here -->
 		<!-- Project section end here-->
 		<!-- About section start here -->
-		<div class="About-section-heading">
+		<div class="about-section-heading">
 		<h1> About </h1>
 		</div>
-		<p class="About-section-sub-paragraph">
+		<p class="about-section-sub-paragraph">
 			It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishingLorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here
 		</p>
-		<div class="About-section-img-wrapper">
+		<div class="about-section-img-wrapper">
 		<!-- Person information start here-->
 			<div class="person-information">
 					<img src="images/image3.jpeg" alt="about-img"/>

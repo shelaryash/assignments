@@ -6,20 +6,27 @@
 			@font-face{
 				font-family:'roboto';
 				src: url( ../fonts/Roboto-Bold.ttf);
-				font-weight: 600;
+				font-weight: 300;
 			}
 			@font-face{
-				font-family:'roboto';
-				src: (Roboto-Regular.ttf);
+				font-family:'medium';
+				src:url(../fonts/Roboto-Regular.ttf);
 				font-weight: 400;
 			}
-			
+			@font-face{
+				font-family: 'thin';
+				src: url( ../fonts/ Roboto-Thin.ttf );
+				font-weight: 100;
+			}
 			.main-wrapper {
 				max-width:1366px;
 				margin:auto;
 				padding-left:20px;
 				padding-right:20px;
-			}			
+			}		
+			
+		/*header-section-start-here */ 
+		
 			.company-logo {
 				float:left;
 			}
@@ -32,14 +39,14 @@
 			} 
 			.ul-wrapper {
 				float:right;
+			
 			}
 			.ul-wrapper ul li {
 				display:inline-block;
 				letter-spacing:6px;	
 				margin-right:20px;
 				font-size:17px;
-				font-weight:500;
-				color:#000000;
+				
 			}
 			.clear {
 				clear:both;
@@ -62,6 +69,11 @@
 				right: 0;
 				bottom:0;
 			}
+
+			/*header-section-end -here*/
+			
+			/* project-section-start-here*/
+			
 			.project-section-heading {
 				font-size:13px;
 				margin-top:70px;
@@ -134,25 +146,28 @@
 				float:left;
 				margin-left:17px;
 			}
-			.About-section-heading {
+			
+			/* project-section-end-here*/
+			
+			/*about-section-start-here*/
+			
+			.about-section-heading {
 				font-size:13px;
 				margin-top:80px;
 				margin-bottom:22px;
 				padding-bottom:30px;
 				border-bottom: 2px solid #EDEDED;
-				
 			}
-			.About-section-heading h1 {
+			.about-section-heading h1 {
 				font-weight: 600;
 				font-family: roboto;
 			}
-			
-			.About-section-sub-paragraph {
+			.about-section-sub-paragraph {
 				font-size:14px;
 				line-height:1.4;
 				margin-top:20px;
 				margin-bottom:20px;
-				font-family: roboto;
+				font-family: medium;
 				font-weight:400;
 			}
 			.person-information {
@@ -173,7 +188,8 @@
 				line-height:20px;
 				font-size:15px;
 				margin-bottom:10px;
-				font-weight: normal;
+				font-family: medium;
+				font-weight:400;
 			}
 			.person-information-1 {
 				max-width:23%;
@@ -202,7 +218,8 @@
 				line-height:1.4;
 				font-size:15px;
 				margin-bottom:15px;
-				font-weight: normal;
+				font-family: medium;
+				font-weight:400;
 			}
 			.Contact-button {
 				max-width:20%;
@@ -215,6 +232,7 @@
 				padding-right:43%;
 				padding-top:5px;
 				padding-bottom:5px;
+				
 			}
 			.person-information-2 {
 				max-width:23%;
@@ -232,12 +250,19 @@
 			.person-information-3 img {
 				max-width:328px;
 			}
+			
+			/*about-section-end-here */
+			
+			/*contact-section-start-here*/
+			
 			.contact-section-heading {
 				font-size:13px;
 				margin-top:95px;
 				margin-bottom:25px;
 				padding-bottom: 30px;
 				border-bottom: 2px solid #EDEDED;
+				font-weight: 600;
+				font-family: roboto;
 			}
 			.contact-section-heading h1{
 				font-weight: normal;
@@ -246,6 +271,8 @@
 				font-size:16px;
 				line-height:20px;
 				margin-top:20px;
+				font-family: medium;
+				font-weight:400;
 			}
 			.form-input {
 				width:99%;
@@ -259,7 +286,7 @@
 			.button-wrapper{
 				margin-top:30px;
 			}
-		 .submit {						
+			.submit {						
 				padding:10px;
 				color:#ffffff;
 				background-color:#000000;
@@ -267,13 +294,16 @@
 				text-transform: uppercase;
 				text-align: center;
 			}
-		 .footer-banner-wrapper img {
+			/*contact-section-end-here*/
+			
+			/* footer-section-start-here*/
+			.footer-banner-wrapper img {
 				width:100%;
 				margin-top:50px;
 				margin-bottom:10px;
 				height: 730px;
 			}
-		 .footer {
+			.footer {
 				background-color:#000000;
 				color:#ffffff;
 				text-align:center;
@@ -281,6 +311,9 @@
 				padding-bottom:30px;
 				margin:0px;
 			}
+			
+			/*footer-section-end-here */
+			
 			.footer a {
 				text-decoration:none;
 				color:white;
