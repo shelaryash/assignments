@@ -70,7 +70,7 @@
   border-bottom: 2px solid #ededed;
 }
 .project-section-heading h1 {
-  font-family: roboto;
+  font-family: roboto; 
   font-weight: 600;
 }
 .project-section-img-wrapper {
