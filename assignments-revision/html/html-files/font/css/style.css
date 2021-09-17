@@ -1,0 +1,100 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+@font-face{
+	src=url ("../../../css/fonts/Oswald-Bold.ttf" )
+	font-family: "oswald";
+	font-weight:bold;
+}
+
+h1{
+	text-align: center;
+	margin-bottom: 20px;	
+	margin-top:20px;
+}
+.italic{
+	border: 2px solid #000000;
+	margin: 0 auto;
+	height: 150px;
+	width: 40%;
+	text-align: center;
+	padding-top: 30px;
+	font-style: italic;
+}
+.oblique{
+	border: 2px solid #000000;
+	margin: 0 auto;
+	height: 150px;
+	width: 40%;
+	text-align: center;
+	padding-top: 30px;
+	font-style: italic;
+}
+.small-caps{
+	border: 2px solid #000000;
+	margin: 0 auto;
+	height: 150px;
+	width: 40%;
+	text-align: center;
+	padding-top: 30px;
+	font-variant: small-caps;
+}
+.all-small-caps{
+	border: 2px solid #000000;
+	margin: 0 auto;
+	height: 150px;
+	width: 40%;
+	text-align: center;
+	padding-top: 30px;
+	font-variant: all-small-caps;
+}
+.light{
+	border: 2px solid #000000;
+	margin: 0 auto;
+	height: 150px;
+	width: 40%;
+	text-align: center;
+	padding-top: 30px;
+	font-weight: light;
+}
+.lighter{
+	border: 2px solid #000000;
+	margin: 0 auto;
+	height: 150px;
+	width: 40%;
+	text-align: center;
+	padding-top: 30px;
+	font-weight: lighter;
+}
+.bold{
+	border: 2px solid #000000;
+	margin: 0 auto;
+	height: 150px;
+	width: 40%;
+	text-align: center;
+	padding-top: 30px;
+	font-weight: bold;
+}
+.bolder{
+	border: 2px solid #000000;
+	margin: 0 auto;
+	height: 150px;
+	width: 40%;
+	text-align: center;
+	padding-top: 30px;
+	font-weight: bolder;
+}
+.maindiv{
+	border: 2px solid #000000;
+	margin: 0 auto;
+	height: 200px;
+	width: 40%;
+}
+.maindiv h2{
+	font-family: oswald;
+	font-weight: bold;
+}
+.maindiv p{
+	margin:10px;
+}
