@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			Background Properties
+		</title>
+	</head>
+	<body>
+		<h1>
+			background image 
+		</h1>
+	</body>
+</html>
