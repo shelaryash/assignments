@@ -1,88 +1,82 @@
-* {
-  margin: 0px;
-  padding: 0px;
+*{
+	margin: 0px;
+	padding: 0px;
 }
-@font-face {
-  src: url(Poppins-Regular.ttf);
-  font-family: "poppins" sans-serif;
-  font-weight: 400;
+@font-face{
+	src: url(Poppins-Regular.ttf);
+	font-family:'poppins' sans-serif;
+	font-weight:400;
 }
-.tamplate-wrapper {
-  width: 1080px;
+.nav-section-wrapper{
+	padding-top:20px;
+	padding-right:100px;
+	padding-bottom:20px;
+	padding-left: 100px;
 }
-/**nav section start here **/
 .nav-logo-wrapper {
-  padding-top: 18px;
-  padding-right: 130px;
-  padding-left: 110px;
+  float: left;
 }
 .nav-logo img {
-  height: 35px;
-  float: left;
-  display: inline-block;
-  margin-top: 5px;
+  height: 40px;
+  display:inline-block;
+}
+.nav-item-wrapper{
+	  float:right;	
 }
 .ul-wrapper {
-  padding-top: 20px;
-  font-weight: 500;
-  font-size: 17px;
+  font-weight:500;
+  font-size:17px;
+  padding-top:10px;
 }
 .ul-wrapper .nav-item {
-  display: inline;
-  margin-right: 35px;
-  color: #000000;
-  font-family: arial, sans-serif;
-  float: right;
+ display:inline;
+ margin-right: 35px;
+ color: #000000;
+ font-family:poppins, sans-serif;
 }
 .ul-wrapper .nav-link {
   color: black;
-  text-decoration: none;
+  text-decoration:none;
 }
-.ul-wrapper .nav-item .active {
-  color: #c11b67;
-  text-decoration: none;
-  font-size: 19px;
+.ul-wrapper .nav-item .active{
+	color:#C11B67;
+	text-decoration:none;
 }
-.nav-link:hover {
-  color: #f48aa7;
+.nav-link:hover{
+	color:#F48AA7;
 }
 .clear {
   clear: both;
 }
-/**nav section end here**/
-/**header section start here**/
-.section-wrapper {
-  padding-top: 30px;
+.sub-header-section1{
+	width:100%;
+	height: 400px;
+	background-color:#F89143;
 }
-.section-1 {
-  height: 400px;
-  width: 1425px;
-  background-color: #f89143;
+.sub-header-section2{
+	width:100%;
+	height: 535px;
+	background-color:#E7E7E7;
+	position: relative;
 }
-.section-2 {
-  height: 535px;
-  width: 1425px;
-  background-color: #e7e7e7;
-  position: relative;
-}
-.main-section {
-  width: 56%;
+.main-header{
+  width: 55%;
   position: absolute;
-  left: 23%;
+  left:23%;
   top: -62%;
   background-color: #ffffff;
-  padding-bottom: 10px;
-  box-shadow: 1px -1px #7a7a7a;
-  margin-bottom: 10px;
+  padding-bottom:10px;
+  box-shadow: 0px 0px 1px #ffffff;
+  margin-bottom:10px;
 }
-.header-banner-wrapper {
-  height: 500px;
+.header-banner-wrapper{
+	height:500px;
 }
 .header-banner-wrapper img {
   width: 100%;
-  height: 100%;
+  height:100%;
 }
-.parent-name {
+.sub-company-name {
   font-family: poppins, sans-serif;
   text-align: center;
   font-size: 19px;
@@ -90,7 +84,7 @@
   letter-spacing: 2px;
   margin-top: 30px;
   text-transform: uppercase;
-  letter-spacing: 2px;
+  letter-spacing:2px;
 }
 .company-name {
   text-align: center;
@@ -107,70 +101,58 @@
   margin-right: 30px;
   margin-top: 33px;
   font-family: poppins, sans-serif;
-  line-height: 24px;
-  font-size: 18px;
+  line-height: 26px;
+  font-size: 17px;
 }
-.parent-company {
+.website-name {
   text-align: center;
   margin-top: 33px;
   margin-bottom: 33px;
   font-family: poppins, sans-serif;
 }
-.header-section-wrapper {
+.website-name .website-link{
+	color:#000000;
+	border-bottom: 1px solid #000000;
+	padding-bottom:0px;
+	text-decoration:none;
 }
-.parent-company .link {
-  color: #000000;
-  border-bottom: 1px solid #000000;
-  padding-bottom: 3px;
-  text-decoration: none;
+.website-link:hover{
+	color:#F48AA7;
 }
-.link:hover {
-  color: #f48aa7;
-}
-.button {
+.button  {
   height: 30px;
-  width.header-section-wrapper {
-  }
-  :200px ;
+  width: 200px;
   border: 1px solid #000000;
   background-color: #000000;
   color: #ffffff;
   text-align: center;
   padding-top: 10px;
-  margin: 0 auto;
+  margin:0 auto; 
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 15px;
   font-family: poppins, sans-serif;
 }
-.button-link {
-  text-decoration: none;
-  color: #ffffff;
+ .button-link {
+	text-decoration: 	none;
+	color:#ffffff;
 }
-
-/**header section end here**/
-/**footer section start here**/
-
 .footer {
   width: 100%;
   background-color: #333333;
   text-align: center;
   color: #ffffff;
-  padding-top: 40px;
-  padding-bottom: 50px;
-  line-height: 25px;
+  padding-top: 60px;
+  padding-bottom: 55px;
+  line-height:25px;
   font-family: poppins, sans-serif;
 }
-.footer .footer-link {
-  color: pink;
-  text-decoration: none;
+.footer .footer-link{
+ color:#F4B0D4;
 }
-.website-link {
+.website-footer-link {
   margin-top: 100px;
 }
-a:link {
-}
 a:hover {
-  color: #f48aa7;
+  color: #F48AA7;
 }
-/**footer section end here**/
