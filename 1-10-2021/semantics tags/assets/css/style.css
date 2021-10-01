@@ -1,0 +1,95 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.section-tag{
+	margin: 25px;
+	text-align: center;
+	font-size: 35px;
+}	
+.section-paragraph{
+	text-align:center;
+	margin-top: 20px;
+	font-size: 30px;
+}
+.article{
+	margin: 25px;
+	text-align: center;
+	font-size: 35px;
+}
+.article-paragraph{
+	text-align: center;
+	margin-top: 20px;
+	font-size: 30px;
+}
+.header{
+	margin: 25px;
+	text-align: center;
+	font-size: 35px;
+}
+.company-logo{
+	height: 200px;	
+	display:block;
+	margin: 0 auto;
+}
+.footer{
+	margin: 25px;
+	text-align: center;
+	font-size: 35px;
+}
+.footer-paragraph{
+	text-align: center;
+	margin-top: 20px;
+	font-size: 30px;
+}
+.nav{
+	text-align: center; 
+	margin: 25px;
+	font-size: 35px;
+}
+.nav-item{
+	display: inline;
+	list-style: none;
+	margin-left: 25px	;
+}
+.aside{
+	text-align: center;
+	margin: 25px;
+	font-size: 35px;
+}
+.aside-paragraph{
+	text-align: center;
+	margin-top: 20px;
+	font-size: 30px;
+}
+.clear{
+	clear: both;
+}
+.figure{
+	text-align: center;
+	margin: 25px;
+	font-size: 35px;
+}
+.figure-image{
+	margin: 25px;
+}
+figcaption{
+	margin-left: 25px; 
+	font-size:20px;
+}
+.main{
+	text-align: center;
+	margin: 25px;
+	font-size: 35px;
+}
+.main-paragraph{
+	text-align: center;
+	margin-top: 20px;
+	font-size: 30px;
+}
+.details{
+	text-align: center;
+	margin: 25px;
+	font-size: 35px;
+	
+}

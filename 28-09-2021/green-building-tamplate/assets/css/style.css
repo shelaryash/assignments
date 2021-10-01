@@ -120,6 +120,10 @@
     font-family: poppins, sans-serif;
 	margin-bottom:10px;
 }
+a:hover{
+	color: #CA4A7F;
+}
+
  .button-link{
 	background-color:#000000;
 	text-decoration: none;
