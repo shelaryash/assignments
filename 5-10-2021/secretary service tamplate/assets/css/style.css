@@ -1,0 +1,91 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+@font-face{
+	font-family: Playfair Display, serif;
+	src: url(assets/fonts/PlayfairDisplay-SemiBold.ttf);
+	font-weight: 500;
+}
+@font-face{
+	font-family:Montserrat, sans-serif;
+	src: url(assets/fonts/Montserrat-ExtraLight.ttf);
+	font-weight: 200;
+}
+
+.header-logo{
+	height: 40px;
+	margin-top: 20px;
+	margin-left: 100px;
+}
+.secretary-img-section{	
+	position:absolute;
+	right: 13%;
+	top: 15%;
+}
+.secretary-img{
+	height:850px;
+	width:650px;
+}
+.main-heading-wrapper{
+	position: absolute;
+	text-align:center;
+	top: 24%;
+	right:49%;
+	font-size:30px;
+	text-transform: capitalize;
+	background-color:#ffffff;
+	padding:25px 25px;
+}
+.main-heading{
+	font-family: Playfair Display, serif;
+	font-weight:600;
+}
+.sub-heading{
+	position: absolute;
+	top: 43%;
+	right: 49%;
+	font-size:40px;
+	background-color:#ffffff;
+	padding: 10px 10px;
+	font-family:font-family:Montserrat, sans-serif;
+	font-weight: 200;
+}
+.sub-paragraph-wrapper{
+	position: absolute;
+	top:56%;
+	width:35%;
+	right: 49%;
+	background-color:#ffffff;
+	padding: 10px 10px;
+}
+.sub-paragraph{
+	font-size: 20px;
+	line-height:1.9;
+	text-align: right;
+	font-family: arial,sans-serif;
+	padding-right: 30px;
+}
+.active{
+	text-decoration:none;
+	color: #E86E42;
+}
+.web-link{
+	display:block;
+	margin-top:25px;
+	
+}
+.information-button{
+	margin-top: 25px;
+	padding: 15px 65px 15px 65px;
+	border-radius: 10px;
+	text-transform:uppercase;
+	background-color:#E86E42;
+	color:#ffffff;
+	border: none;
+	outline: none;
+	margin-bottom: 50px;
+}
+button:hover{
+	background-color:#000000;
+}
