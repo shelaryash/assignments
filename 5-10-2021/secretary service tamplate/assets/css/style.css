@@ -12,20 +12,18 @@
 	src: url(assets/fonts/Montserrat-ExtraLight.ttf);
 	font-weight: 200;
 }
-
 .header-logo{
 	height: 40px;
 	margin-top: 20px;
 	margin-left: 100px;
 }
 .secretary-img-section{	
-	position:absolute;
-	right: 13%;
-	top: 15%;
+	position: relative;
+    left: 40%;
 }
 .secretary-img{
-	height:850px;
-	width:650px;
+	height:900px;
+	width:px;
 }
 .main-heading-wrapper{
 	position: absolute;
@@ -77,7 +75,7 @@
 }
 .information-button{
 	margin-top: 25px;
-	padding: 15px 65px 15px 65px;
+	padding: 20px 65px 20px 65px;
 	border-radius: 10px;
 	text-transform:uppercase;
 	background-color:#E86E42;
@@ -88,4 +86,23 @@
 }
 button:hover{
 	background-color:#000000;
+}
+.footer-text{ 
+	text-align: center;
+	background-color:#333333;
+	color: #ffffff;
+	padding: 30px 50px 30px 50px;
+	font-family: arial;
+}
+.website-link{
+	margin-top: 100px;
+	font-weight: 100;
+}
+.link{
+	color:#D7B07C;
+}
+.button-link{
+	color:#ffffff;
+	text-decoration: none;
+	
 }

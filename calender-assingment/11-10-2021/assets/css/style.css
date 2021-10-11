@@ -1,0 +1,46 @@
+*{
+	margin: 0px;
+	padding; 0px;
+}
+body{
+	width: 1180px;
+}
+table{
+	padding-top: 40px;
+	padding-left: 40px;
+	
+}
+.calendar-advertisement-section{
+	vertical-align: super;
+	text-align:left;
+}
+.advertisement-image-3{
+	margin-top:3px;
+	height:30px;
+	float: left;
+}
+.advertisement-image-4{
+	height:52px;
+	margin-top:8px;
+	float: left;
+}
+.advertisement-image-5{
+	vertical-align: super;
+	height: 87px;
+	margin-top:5px;
+}
+.advertisement-image-6{
+	vertical-align: super;
+	height: 89px;
+	margin-top:5px;
+	
+}
+.advertisement-image-7{
+	height: 65px;
+}
+.aside-section{
+	vertical-align: top;
+}
+.advertisement-image-9{
+	height: 170px;
+}
