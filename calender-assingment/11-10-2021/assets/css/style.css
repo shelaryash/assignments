@@ -2,38 +2,93 @@
 	margin: 0px;
 	padding; 0px;
 }
-@font-face{
-	src:url("assets/fonts/Sura-Bold.ttf");
-	font-family: Sura, serif;
-	font-weight: bold;
-}
-
-#main-wrapper{
-	width:100px;
+body{
+	width: 1350px;
+	
 }
 table{
-	padding-top: 40px;
-	padding-left: 40px;	
+	width: 100%;
+	padding: 20px 0px 0px 30px;
+	border-collapse: collapse;
+	border: 2px solid #8E5448;
 }
 .header-image{
-	height: 420px;
-}
-.header-image2{
-	height: 420px;
+	width: 100%;	
 }
 .month-name{
-	font-size:70px;
+	font-size:60px;
 	background-color: #CEBE3F;
 	padding:10px 0px 10px 0px;
-	width:10px;
+	width:41%;
 	text-align: center;
 	color:#0E1D70;
-	width: 50%;
 	font-weight: bold;
 	font-family: Sura, serif;
 }
 .marathi-month-name{
-	font-size: 50px;
-	width: 20%;
+	font-size: 33px;
+	width: 17%;
 	background-color: #FBB7C1;
+	text-align: center;
 }
+.heading{
+	width:35%;
+	font-size: 75px;
+	text-align: center;
+	background-color: #A7537B;
+	color: #fff;
+}
+.aside{
+	width:18%;
+}
+.week{
+  width: 8%;
+  height: 205px;
+  text-align: center;
+  font-size: 105px;
+  font-weight: 100;
+  background-color: #536FCA;
+  color:#fff;
+}
+.days{
+	width: 16%;
+}
+.weekend{
+  width: 8%;
+  height: 220px;
+  text-align: center;
+  font-size: 105px;
+  font-weight: 100;
+  background-color:#E1403D;
+  color: #fff;
+}
+.ganesh-img{
+	height:214px;
+	display: block;
+	margin: 0 auto;
+}
+.advertisement {
+	margin: 2px;
+	height: 411px;
+}
+.days-heading{
+	font-size:110px;
+	vertical-align: bottom;
+	margin-top: 5px;
+	text-align: right;
+	font-weight: 100;
+	color:#293C8A;
+}
+.text{
+	color: #4885A5;
+	font-weight: bold; 
+	font-size: 20px;
+	margin-left: 5px;
+}
+.marathi-month{
+	font-weight: bold; 
+	font-size: 15px;
+	margin-left: 5px;
+}
+
+
