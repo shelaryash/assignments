@@ -18,65 +18,87 @@ table {
 	
 }
 .month-name{
-	font-size:60px;
-	background-color: #CEBE3F;
-	padding:10px 0px 10px 0px;
-	width:41%;
-	text-align: center;
-	color:#0E1D70;
-	font-weight: bold;
-	font-family: Sura, serif;
+	font-size: 67px;
+    background-color: #CEBE3F;
+    padding: 20px 0px 10px 0px;
+    text-align: center;
+    color: #0E1D70;
+    font-weight: bold;
+    font-family: Sura, serif;
+    margin-right: 6px;
+	margin-top: 4px;
+	margin-bottom: 10px;
 }
+	
 .marathi-month-name{
 	font-size: 33px;
-	width: 17%;
-	background-color: #FBB7C1;
-	text-align: center;
-	color: #530101;
-	font-weight: bold;
+    background-color: #FBB7C1;
+    text-align: center;
+    color: #530101;
+    font-weight: bold;
+    padding: 15px;
+    margin-right: 6px;
+	margin-top: 6px;
+	margin-bottom: 10px;
 }
 .heading{
-	width:35%;
 	font-size: 75px;
-	text-align: center;
-	background-color: #A7537B;
-	color: #fff;
+    text-align: center;
+    background-color: #A7537B;
+    color: #fff;
+    padding: 10px;
+	margin-top: 4px;
+	margin-bottom: 10px;
 }
 .aside{
 	width:18%;
+}
+.aside-heading{
+	text-align: center;
+    font-size: 95px;
+    font-weight: 100;
+    background-color: #F6F524;
+    margin-right: 9px;
+    color: #3D603D;
+    font-weight: bold;
+    padding: -7px;
+    margin: 7px;
+	margin-top: 2px;
 }
 /**thead section end here**/
 
 /**tbody section start here**/
 
-.week{
-  width: 8%;
-  text-align: center;
-  font-size: 88px;
-  font-weight: 100;
-  background-color: #1F3483;
-  color:#fff;
-  border-top: 2px solid #ffffff;
-  vertical-align: bottom;
+.week{ 
+    height: 194px;
+    text-align: center;
+    font-size: 145px;
+    font-weight: 100;
+    background-color: #1F3483;
+    color: #fff;
+    vertical-align: bottom;
+    border-bottom: 1px solid #fff:;
+    margin-right: 6px;
 }
 .days{
-	width: 16%;
-	padding: 0px;
+	width: 17%;
+	padding: 0px; 
 	border: 2px solid maroon;
 	vertical-align: top;
 	padding-top: 7px;
 	border-spacing: 20px 20px ;
 }
 .weekend{
-  width: 8%;
-  height: 220px;
-  text-align: center;
-  font-size: 105px;
-  font-weight: 100;
-  background-color:#E1403D;
-  color: #fff;
-  vertical-align:bottom;
-  border-bottom: 1px solid #fff:
+    height: 194px;
+    text-align: center;
+    font-size: 145px;
+    font-weight: 100;
+    background-color: #E1403D;
+    color: #fff;
+    vertical-align: bottom;
+    border-bottom: 1px solid #fff:;
+    margin-right: 6px;
+	margin-top: -10px;
 }
 .ganesh-img{
 	height:214px;
@@ -96,7 +118,7 @@ table {
 	color:#293C8A;
 	margin-right: 18px;
 	font-weight: bold;
-	letter-spacing: -12px;
+	letter-spacing: -4px;
 }
 .highlight{
 	background-color:#FBDBF7;
@@ -115,13 +137,13 @@ table {
 	margin-left: 5px;
 }
 .note{
-	font-size: 20px;
 	font-size: 23px;
     color: #000;
     font-weight: bold;
-	margin-top: 46px;
 	background-color: #7E716C;
 	padding:5px 5px;
+	margin-right:6px;
+	text-align: center;
 	
 }
 .marathi-month{
@@ -129,15 +151,7 @@ table {
 	font-size: 15px;
 	margin-left: 5px;
 }
-.aside-heading{
-	text-align: center;
-	font-size: 95px;
-	font-weight: 100;
-	background-color: #F6F524;
-	margin-right: 5px;
-	color: #3D603D;
-	font-weight: bold;
-}
+
 /**tbody section end here**/
 
 /**tfoot section start here**/
@@ -155,12 +169,17 @@ table {
 	list-style: none;
 	text-align: right;
     margin-top: 16px;
+	font-size:17px;	
 }
 .aside-items-wrapper{
-	margin:5px;
+	margin-left: 5px;
+	margin-right: 7px;
 	background-color: #FDA944;
 	font-size: 13px;
-	padding:10px;
+	padding-right:10px;
+	padding-bottom:10px;
+	padding-top:10px;
+	border: 3px solid orange;
 }
 .inner-table-heading{
 	text-align: center;
