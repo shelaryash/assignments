@@ -9,7 +9,7 @@ body{
 table {
 	width: 100%;
 }
-/**thead section start here**/
+/*thead section start here*/
 .table-wrapper{
 	margin-top: 10px;
 }
@@ -51,7 +51,7 @@ table {
 	margin-bottom: 10px;
 }
 .aside{
-	width:18%;
+	width:10%;
 }
 .aside-heading{
 	text-align: center;
@@ -65,52 +65,83 @@ table {
     margin: 7px;
 	margin-top: 2px;
 }
-/**thead section end here**/
+/*thead section end here*/
 
-/**tbody section start here**/
+/*tbody section start here*/
 
 .week{ 
-    height: 194px;
+    height: 144px;
     text-align: center;
-    font-size: 145px;
+    font-size: 87px;
     font-weight: 100;
     background-color: #1F3483;
     color: #fff;
     vertical-align: bottom;
     border-bottom: 1px solid #fff:;
     margin-right: 6px;
+	padding-top: 62px;
+	padding-bottom: 8px;
+	margin-top: 4px;
+}
+.monday{
+	font-size: 72px;
+	padding-top: 46px;
+		padding-bottom: 8px;
+	height: 144px;
 }
 .days{
-	width: 17%;
 	padding: 0px; 
 	border: 2px solid maroon;
 	vertical-align: top;
 	padding-top: 7px;
 	border-spacing: 20px 20px ;
+	table-layout: fixed;
+    width: 18%;
 }
 .weekend{
-    height: 194px;
+    height: 160px;
     text-align: center;
-    font-size: 145px;
+    font-size: 91px;
     font-weight: 100;
     background-color: #E1403D;
     color: #fff;
     vertical-align: bottom;
     border-bottom: 1px solid #fff:;
     margin-right: 6px;
-	margin-top: -10px;
-}
+	padding-top: 36px;
+	margin-top: 2px;
+}	
 .ganesh-img{
 	height:214px;
 	display: block;
 	margin: 0 auto;
 }
-.advertisement {
-	margin: 2px;
-	height: 415px;
+
+.fenolex-pipes{
+	background-color: #FEF222;
+	padding-top: 135px;
+	padding-bottom:135px;
+	margin-right: 5px;
+	margin-left: 5px;
 }
+.fenolex-pipes-image{
+	width:100%;
+}
+.wish-text{
+	background-color: #1D6ED9;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	text-align: center;
+	color: #fff;
+	font-size: 23px; 
+	font-weight: 100;
+	margin-bottom: 5px;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
 .days-heading{
-	font-size:125px;
+	font-size:129px;
 	vertical-align: bottom;
 	margin-top: 5px;
 	text-align: right;
@@ -128,7 +159,6 @@ table {
 }
 .highlight2{
 	background-color: #DDFFFF;
-	
 }
 .text{
 	color: #4885A5;
@@ -141,23 +171,15 @@ table {
     color: #000;
     font-weight: bold;
 	background-color: #7E716C;
-	padding:5px 5px;
+	padding:9px 10px;
 	margin-right:6px;
 	text-align: center;
-	
+	margin-bottom: 0px;
 }
 .marathi-month{
 	font-weight: bold; 
 	font-size: 15px;
 	margin-left: 5px;
-}
-
-/**tbody section end here**/
-
-/**tfoot section start here**/
-.tfoot-advertisemen{
-	width: 100%;
-	margin-top: 10px;
 }
 .holiday-color{
 	color: red;
@@ -168,26 +190,31 @@ table {
 .aside-items{
 	list-style: none;
 	text-align: right;
-    margin-top: 16px;
-	font-size:17px;	
+    margin-top: 21px;
+	font-size:11px;	
+	height: 21px;
+	color: #7B5104;
 }
 .aside-items-wrapper{
 	margin-left: 5px;
-	margin-right: 7px;
+	margin-right: 6spx;
 	background-color: #FDA944;
-	font-size: 13px;
+	font-size: 11px;
 	padding-right:10px;
 	padding-bottom:10px;
 	padding-top:10px;
-	border: 3px solid orange;
+	border: 3px solid orange; 
+	font-weight: bold;
+	margin-right: 6px;
 }
 .inner-table-heading{
 	text-align: center;
     background-color: #ED3A29;
     padding: 4px;
-    font-size: 20px;
+    font-size: 19	px;
     color: #FCA13F;
     font-weight: bolder;
+	
 }
 .price{
 	text-align: center;
@@ -198,6 +225,7 @@ table {
     padding-top: 5px;
 	margin-left: 3px;
 	width: 95%;
+	margin-top: 5px;
 }
 .inner-table{
 	background-color: #F9FA9F;
@@ -217,8 +245,18 @@ table {
 	font-weight: bold;
 	text-align: right;
 	width: 23%;
+	padding-right: 3px;
 }
 .inner-holiday-color{
 	color: red;
 }
-/**tfoot section end here**/
+
+/*tbody section end here*/
+
+/*tfoot section start here*/
+.tfoot-advertisemen{
+	width: 100%;
+	margin-top: 10px;
+}
+
+/*tfoot section end here*
