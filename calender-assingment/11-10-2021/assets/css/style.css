@@ -25,7 +25,8 @@ table {
     color: #0E1D70;
     font-weight: bold;
     font-family: Sura, serif;
-    margin-right: 6px;
+    margin-right: 6px;/*tfoot section end here*
+
 	margin-top: 4px;
 	margin-bottom: 10px;
 }
@@ -258,4 +259,4 @@ table {
 	margin-top: 10px;
 }
 
-/*tfoot section end here*
+/*tfoot section end here*/
