@@ -3,8 +3,8 @@
 	padding: 0px;
 }
 body{
-	width: 1300px;
-	padding: 20px 0px 0px 65px;
+	
+	padding:20px 60px 0px 65px;
 }
 table {
 	width: 100%;
@@ -70,7 +70,6 @@ table {
 /*tbody section start here*/
 
 .week{ 
-    height: 144px;
     text-align: center;
     font-size: 87px;
     font-weight: 100;
@@ -79,14 +78,14 @@ table {
     vertical-align: bottom;
     border-bottom: 1px solid #fff:;
     margin-right: 6px;
-	padding-top: 62px;
-	padding-bottom: 8px;
+	padding-top: 60px;
+	padding-bottom: 60px;
 	margin-top: 4px;
 }
 .monday{
 	font-size: 72px;
-	padding-top: 46px;
-		padding-bottom: 8px;
+	padding-top: 73px;
+	padding-bottom: 10px;
 	height: 144px;
 }
 .days{
@@ -99,7 +98,6 @@ table {
     width: 18%;
 }
 .weekend{
-    height: 160px;
     text-align: center;
     font-size: 91px;
     font-weight: 100;
@@ -108,8 +106,10 @@ table {
     vertical-align: bottom;
     border-bottom: 1px solid #fff:;
     margin-right: 6px;
-	padding-top: 36px;
 	margin-top: 2px;
+	padding-top: 60px;
+	padding-bottom:60px;
+	
 }	
 .ganesh-img{
 	height:214px;
@@ -141,7 +141,7 @@ table {
 }
 
 .days-heading{
-	font-size:129px;
+	font-size:160px;
 	vertical-align: bottom;
 	margin-top: 5px;
 	text-align: right;
@@ -193,11 +193,10 @@ table {
     margin-top: 21px;
 	font-size:11px;	
 	height: 21px;
-	color: #7B5104;
+	color: #2B8140;
 }
 .aside-items-wrapper{
-	margin-left: 5px;
-	margin-right: 6spx;
+	margin-left: 6px;
 	background-color: #FDA944;
 	font-size: 11px;
 	padding-right:10px;
@@ -207,11 +206,11 @@ table {
 	font-weight: bold;
 	margin-right: 6px;
 }
-.inner-table-heading{
+.aside-month-heading{
 	text-align: center;
     background-color: #ED3A29;
     padding: 4px;
-    font-size: 19	px;
+    font-size: 19px;
     color: #FCA13F;
     font-weight: bolder;
 	
@@ -223,31 +222,31 @@ table {
     font-weight: bold;
     background-color: #FCDA1B;
     padding-top: 5px;
-	margin-left: 3px;
-	width: 95%;
+	margin-left: 6px;
+	width: 91%;
 	margin-top: 5px;
 }
-.inner-table{
+.aside-month{
 	background-color: #F9FA9F;
 	margin-top: 4px;	
-	margin-left: 3px;
-	width: 95%;
+	margin-left: 6px;
+	width: 91%;
 }
-.inner-table-week-heading{
+.aside-month-week-heading{
 	color: #3B7B5A;
 	height:26px;
 	font-weight: bold;
 	text-align: center;
 }
-.inner-table-days-heading{
+.aside-month-days-heading{
 	color: #3B7B5A;
-	height:26px;
+	height:32px;
 	font-weight: bold;
 	text-align: right;
 	width: 23%;
 	padding-right: 3px;
 }
-.inner-holiday-color{
+.aside-holiday-color{
 	color: red;
 }
 
