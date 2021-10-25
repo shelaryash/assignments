@@ -1,0 +1,31 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.display-table-header-group {
+	display: table-header-group;
+}
+.table {
+	display: display: table;
+	border: 1px solid #ffffff;
+	margin: 50px 50px 50px;
+	
+}
+.caption {
+	display: caption;
+	margin: 50px 50px 50px 50px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 45px;
+}
+.table-row {
+	display: table-row;
+	font-size: 20px;
+}
+.table-cell {
+	display: table-cell;
+	border: 1px solid ;
+	padding: 10px;
+	background-color: blue;
+	color: white;
+}

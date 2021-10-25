@@ -1,9 +1,8 @@
-*{
+* {
 	margin: 0px;
 	padding: 0px;
 }
 body{
-	
 	padding:20px 60px 0px 65px;
 }
 table {
@@ -17,7 +16,7 @@ table {
 	width: 99%;
 	
 }
-.month-name{
+.month-name {
 	font-size: 67px;
     background-color: #CEBE3F;
     padding: 20px 0px 10px 0px;
@@ -30,7 +29,7 @@ table {
 	margin-bottom: 10px;
 }
 	
-.marathi-month-name{
+.marathi-month-name {
 	font-size: 33px;
     background-color: #FBB7C1;
     text-align: center;
@@ -41,7 +40,7 @@ table {
 	margin-top: 6px;
 	margin-bottom: 10px;
 }
-.heading{
+.heading {
 	font-size: 75px;
     text-align: center;
     background-color: #A7537B;
@@ -50,7 +49,7 @@ table {
 	margin-top: 4px;
 	margin-bottom: 10px;
 }
-.aside{
+.aside {
 	width:10%;
 }
 .aside-heading{
@@ -76,10 +75,9 @@ table {
     background-color: #1F3483;
     color: #fff;
     vertical-align: bottom;
-    border-bottom: 1px solid #fff:;
     margin-right: 6px;
-	padding-top: 60px;
-	padding-bottom: 60px;
+	padding-top: 62px;
+	padding-bottom: 62px;
 	margin-top: 4px;
 }
 .monday{
@@ -90,9 +88,8 @@ table {
 }
 .days{
 	padding: 0px; 
-	border: 2px solid maroon;
-	vertical-align: top;
-	padding-top: 7px;
+	border: 4px solid #983136;
+	vertical-align: middle;
 	border-spacing: 20px 20px ;
 	table-layout: fixed;
     width: 18%;
@@ -106,13 +103,12 @@ table {
     vertical-align: bottom;
     border-bottom: 1px solid #fff:;
     margin-right: 6px;
-	margin-top: 2px;
-	padding-top: 60px;
-	padding-bottom:60px;
+	padding-top: 62px;
+	padding-bottom:62px;
 	
 }	
 .ganesh-img{
-	height:214px;
+	height:258px;
 	display: block;
 	margin: 0 auto;
 }
@@ -129,8 +125,8 @@ table {
 }
 .wish-text{
 	background-color: #1D6ED9;
-	padding-top: 40px;
-	padding-bottom: 40px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 	text-align: center;
 	color: #fff;
 	font-size: 23px; 
@@ -165,6 +161,7 @@ table {
 	font-weight: bold; 
 	font-size: 20px;
 	margin-left: 5px;
+	vertical-align: super;
 }
 .note{
 	font-size: 23px;
@@ -174,16 +171,20 @@ table {
 	padding:9px 10px;
 	margin-right:6px;
 	text-align: center;
-	margin-bottom: 0px;
+	margin-bottom: -3px;
 }
 .marathi-month{
 	font-weight: bold; 
-	font-size: 15px;
+	font-size: 17px;
 	margin-left: 5px;
+	vertical-align: super;
 }
 .holiday-color{
 	color: red;
 } 
+
+/** aside section start here**/
+
 .aside-section{
 	vertical-align: baseline;
 }
@@ -240,7 +241,7 @@ table {
 }
 .aside-month-days-heading{
 	color: #3B7B5A;
-	height:32px;
+	height:33px;
 	font-weight: bold;
 	text-align: right;
 	width: 23%;
@@ -249,6 +250,7 @@ table {
 .aside-holiday-color{
 	color: red;
 }
+/** aside section end here**/
 
 /*tbody section end here*/
 
@@ -258,4 +260,4 @@ table {
 	margin-top: 10px;
 }
 
-/*tfoot section end here*
+/*tfoot section end here*/
