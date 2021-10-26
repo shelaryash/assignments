@@ -3,8 +3,13 @@
 	padding: 0px;
 }
 body{
+<<<<<<< Updated upstream
 	width: 1300px;
 	padding: 20px 0px 0px 65px;
+=======
+	padding:20px 60px 0px 65px;
+	font-family: poppins,sans-serif;
+>>>>>>> Stashed changes
 }
 table {
 	width: 100%;
@@ -79,8 +84,13 @@ table {
     vertical-align: bottom;
     border-bottom: 1px solid #fff:;
     margin-right: 6px;
+<<<<<<< Updated upstream
 	padding-top: 62px;
 	padding-bottom: 8px;
+=======
+	padding-top: 63px;
+	padding-bottom: 62px;
+>>>>>>> Stashed changes
 	margin-top: 4px;
 }
 .monday{
@@ -91,9 +101,14 @@ table {
 }
 .days{
 	padding: 0px; 
+<<<<<<< Updated upstream
 	border: 2px solid maroon;
 	vertical-align: top;
 	padding-top: 7px;
+=======
+	border: 2px solid #983136;
+	vertical-align: middle;
+>>>>>>> Stashed changes
 	border-spacing: 20px 20px ;
 	table-layout: fixed;
     width: 18%;
@@ -129,8 +144,13 @@ table {
 }
 .wish-text{
 	background-color: #1D6ED9;
+<<<<<<< Updated upstream
 	padding-top: 40px;
 	padding-bottom: 40px;
+=======
+	padding-top: 56px;
+	padding-bottom: 56px;
+>>>>>>> Stashed changes
 	text-align: center;
 	color: #fff;
 	font-size: 23px; 
@@ -139,7 +159,6 @@ table {
 	margin-right: 5px;
 	margin-left: 5px;
 }
-
 .days-heading{
 	font-size:129px;
 	vertical-align: bottom;
@@ -160,6 +179,9 @@ table {
 .highlight2{
 	background-color: #DDFFFF;
 }
+.highlight3{
+	background-color: #FCCFD3;
+}
 .text{
 	color: #4885A5;
 	font-weight: bold; 
@@ -174,7 +196,11 @@ table {
 	padding:9px 10px;
 	margin-right:6px;
 	text-align: center;
+<<<<<<< Updated upstream
 	margin-bottom: 0px;
+=======
+	margin-bottom: -2px;
+>>>>>>> Stashed changes
 }
 .marathi-month{
 	font-weight: bold; 
@@ -182,7 +208,7 @@ table {
 	margin-left: 5px;
 }
 .holiday-color{
-	color: red;
+	color: #ff0000;
 } 
 .aside-section{
 	vertical-align: baseline;

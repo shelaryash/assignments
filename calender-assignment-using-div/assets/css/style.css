@@ -1,0 +1,43 @@
+*{
+	margin: 0px;
+	padding: 0px;
+} 
+body{
+	width:1300px;
+}
+.wrapper{
+	padding: 20px 20px 20px 20px;
+}
+.table{
+	display: table;
+	width: 100%;
+}
+.theader{
+	display: table-header-group;
+}
+
+.tbody{
+	display: table-row-group;
+}
+.tr{
+	display: table-row;
+}
+.td{
+	display: table-cell;
+
+}
+.month-header{ 
+	font-size: 60px;
+	background-color: #C2B540;
+	width: 38%;
+	padding: 20px;
+	text-align: center;
+}
+.header-image{
+	width: 100%;
+}
+.week{
+	font-size: 50px;
+	border: 1px solid #000000;
+	width: 41%;
+}
