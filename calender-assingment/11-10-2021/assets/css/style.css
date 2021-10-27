@@ -3,13 +3,8 @@
 	padding: 0px;
 }
 body{
-<<<<<<< Updated upstream
-	width: 1300px;
-	padding: 20px 0px 0px 65px;
-=======
+	
 	padding:20px 60px 0px 65px;
-	font-family: poppins,sans-serif;
->>>>>>> Stashed changes
 }
 table {
 	width: 100%;
@@ -31,6 +26,7 @@ table {
     font-weight: bold;
     font-family: Sura, serif;
     margin-right: 6px;
+
 	margin-top: 4px;
 	margin-bottom: 10px;
 }
@@ -75,7 +71,6 @@ table {
 /*tbody section start here*/
 
 .week{ 
-    height: 144px;
     text-align: center;
     font-size: 87px;
     font-weight: 100;
@@ -84,37 +79,26 @@ table {
     vertical-align: bottom;
     border-bottom: 1px solid #fff:;
     margin-right: 6px;
-<<<<<<< Updated upstream
-	padding-top: 62px;
-	padding-bottom: 8px;
-=======
-	padding-top: 63px;
-	padding-bottom: 62px;
->>>>>>> Stashed changes
+	padding-top: 60px;
+	padding-bottom: 60px;
 	margin-top: 4px;
 }
 .monday{
 	font-size: 72px;
-	padding-top: 46px;
-		padding-bottom: 8px;
+	padding-top: 73px;
+	padding-bottom: 10px;
 	height: 144px;
 }
 .days{
 	padding: 0px; 
-<<<<<<< Updated upstream
 	border: 2px solid maroon;
 	vertical-align: top;
 	padding-top: 7px;
-=======
-	border: 2px solid #983136;
-	vertical-align: middle;
->>>>>>> Stashed changes
 	border-spacing: 20px 20px ;
 	table-layout: fixed;
     width: 18%;
 }
 .weekend{
-    height: 160px;
     text-align: center;
     font-size: 91px;
     font-weight: 100;
@@ -123,8 +107,10 @@ table {
     vertical-align: bottom;
     border-bottom: 1px solid #fff:;
     margin-right: 6px;
-	padding-top: 36px;
 	margin-top: 2px;
+	padding-top: 60px;
+	padding-bottom:60px;
+	
 }	
 .ganesh-img{
 	height:214px;
@@ -144,13 +130,8 @@ table {
 }
 .wish-text{
 	background-color: #1D6ED9;
-<<<<<<< Updated upstream
-	padding-top: 40px;
-	padding-bottom: 40px;
-=======
-	padding-top: 56px;
-	padding-bottom: 56px;
->>>>>>> Stashed changes
+	padding-top: 55px;
+	padding-bottom: 55px;
 	text-align: center;
 	color: #fff;
 	font-size: 23px; 
@@ -159,8 +140,9 @@ table {
 	margin-right: 5px;
 	margin-left: 5px;
 }
+
 .days-heading{
-	font-size:129px;
+	font-size:160px;
 	vertical-align: bottom;
 	margin-top: 5px;
 	text-align: right;
@@ -179,9 +161,6 @@ table {
 .highlight2{
 	background-color: #DDFFFF;
 }
-.highlight3{
-	background-color: #FCCFD3;
-}
 .text{
 	color: #4885A5;
 	font-weight: bold; 
@@ -196,11 +175,7 @@ table {
 	padding:9px 10px;
 	margin-right:6px;
 	text-align: center;
-<<<<<<< Updated upstream
 	margin-bottom: 0px;
-=======
-	margin-bottom: -2px;
->>>>>>> Stashed changes
 }
 .marathi-month{
 	font-weight: bold; 
@@ -208,7 +183,7 @@ table {
 	margin-left: 5px;
 }
 .holiday-color{
-	color: #ff0000;
+	color: red;
 } 
 .aside-section{
 	vertical-align: baseline;
@@ -219,11 +194,10 @@ table {
     margin-top: 21px;
 	font-size:11px;	
 	height: 21px;
-	color: #7B5104;
+	color: #2B8140;
 }
 .aside-items-wrapper{
-	margin-left: 5px;
-	margin-right: 6spx;
+	margin-left: 6px;
 	background-color: #FDA944;
 	font-size: 11px;
 	padding-right:10px;
@@ -233,11 +207,11 @@ table {
 	font-weight: bold;
 	margin-right: 6px;
 }
-.inner-table-heading{
+.aside-month-heading{
 	text-align: center;
     background-color: #ED3A29;
     padding: 4px;
-    font-size: 19	px;
+    font-size: 19px;
     color: #FCA13F;
     font-weight: bolder;
 	
@@ -249,31 +223,31 @@ table {
     font-weight: bold;
     background-color: #FCDA1B;
     padding-top: 5px;
-	margin-left: 3px;
-	width: 95%;
+	margin-left: 6px;
+	width: 91%;
 	margin-top: 5px;
 }
-.inner-table{
+.aside-month{
 	background-color: #F9FA9F;
 	margin-top: 4px;	
-	margin-left: 3px;
-	width: 95%;
+	margin-left: 6px;
+	width: 91%;
 }
-.inner-table-week-heading{
+.aside-month-week-heading{
 	color: #3B7B5A;
 	height:26px;
 	font-weight: bold;
 	text-align: center;
 }
-.inner-table-days-heading{
+.aside-month-days-heading{
 	color: #3B7B5A;
-	height:26px;
+	height:32px;
 	font-weight: bold;
 	text-align: right;
 	width: 23%;
 	padding-right: 3px;
 }
-.inner-holiday-color{
+.aside-holiday-color{
 	color: red;
 }
 
@@ -285,4 +259,4 @@ table {
 	margin-top: 10px;
 }
 
-/*tfoot section end here*
+/*tfoot section end here*/

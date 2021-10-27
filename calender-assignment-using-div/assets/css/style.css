@@ -2,15 +2,15 @@
 	margin: 0px;
 	padding: 0px;
 } 
-body{
-	width:1300px;
+
 }
 .wrapper{
-	padding: 20px 20px 20px 20px;
+		width:1300px;
 }
 .table{
 	display: table;
-	width: 100%;
+	
+	
 }
 .theader{
 	display: table-header-group;
@@ -21,23 +21,44 @@ body{
 }
 .tr{
 	display: table-row;
+	
 }
 .td{
 	display: table-cell;
-
+	
+	padding: 20px;
+	table-layout: auto;
+	width: 500px;
 }
+.td2{
+	display: table-cell;
+	
+	padding: 20px;
+	table-layout: auto;
+	width: 218px;
+}
+
+.week-heading{
+	border: 1px solid #000000;
+	padding:10px 35px 10px;
+}
+
+.td3{
+	display: table-cell;
+	
+	
+	table-layout: auto;
+	width: 500px;
+}
+
+.header-image{
+	height: 425px;
+}
+
 .month-header{ 
 	font-size: 60px;
 	background-color: #C2B540;
 	width: 38%;
 	padding: 20px;
 	text-align: center;
-}
-.header-image{
-	width: 100%;
-}
-.week{
-	font-size: 50px;
-	border: 1px solid #000000;
-	width: 41%;
 }
