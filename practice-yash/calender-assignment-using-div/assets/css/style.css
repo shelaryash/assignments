@@ -1,0 +1,193 @@
+*{  
+	margin:0px;
+	padding:0px;
+}
+body{
+	width: 1200px;
+	
+}
+.table{
+	display: table;
+	margin-left: 107px;
+	width: 100%; 
+}
+.header-image{
+	margin-left: 54px;
+	height: 368px;
+	width: 100%; 
+}
+.thead{
+	display: table-header-group;
+}
+.tr {
+	display: table-row;
+}
+.month-heading{
+	display: table-cell;
+	font-size:30px;
+	table-layout: fixed;
+	width: 40%;
+	vertical-align: middle;
+	text-align: center;
+	
+}
+.heading{
+	background-color: #CEBE3F;
+	padding: 22px;
+	color: #2D3F79;
+}
+.marathi-month{ 
+	display: table-cell;
+	padding: 3px;
+	table-layout: fixed;
+	width: 15%;
+	font-size: 16px;
+	vertical-align: middle;
+	text-align: center;
+	
+}
+.marathi-month-heading{
+	background-color:#FBB7C1;
+	padding: 20px;
+	color: #7C2D36;
+}
+
+.wish-text{
+	display: table-cell;
+	table-layout: fixed;
+	width: 31%;
+	font-size:35px;
+	text-align: center;
+	vertical-align: middle;
+}
+.wish-text-heading{
+	font-weight: 100;
+	background-color:#A7537B;
+	padding: 17px;
+	color: #ffffff;
+}
+.aside-section{
+	vertical-align: middle;
+	text-align: center;
+	margin-left: 5px;
+	
+}
+.aside-heading{
+	display: table-cell;
+	padding: 16px 27px 10px 25px;
+	font-size:80px;
+	background-color: #F6F524;
+	color: #335D3F;
+}
+.tbody-table{
+	display:table;
+	width: 100%;
+	margin-left: 107px;
+}
+.week{
+	display: table-cell;	
+    table-layout: fixed;
+    width: 7%;
+    vertical-align: middle;
+    text-align: center;
+	border-bottom: 2px solid #fffff2;
+	padding:9px 5px;
+	font-size:65px;
+	background-color: #3A52AE;
+	color: #ffffff;
+	border-right: 3px solid #ffffff;
+}
+.weekend{
+	background-color: #E64542;
+	color: #ffffff;
+}
+.days{
+	display: table-cell;
+    table-layout: fixed;
+    width: 17%;
+    text-align: right;
+	border: 1px solid #000000;
+	padding: 86px 16px 10px 16px;
+	color: #28429F;
+}
+.active{
+	color: #D23630;
+}
+.text{
+	font-size:20px;
+}
+.inner-days-heading{
+	font-size:120px;
+	vertical-align: bottom;
+}
+.inner-month-heading{
+	display: block;
+    margin-top: -79px;
+    text-align: left;
+    margin-bottom: 35px;
+    margin-left: -11px;
+    font-size: 20px;
+    color: #4885A5;
+    font-weight: bold;
+}
+
+.text{
+	display: block;
+    margin-top: -45px;
+    text-align: left;
+    margin-bottom: 30px;
+    margin-left: -11px;
+    font-size: 15px;
+    color: #000000;
+    font-weight: bold;
+}
+.days-aside{
+	background-color: #F9A33C;
+	border-bottom: 1px solid #F9A33C;
+	padding-right:2px;
+	color: #2B8140;
+	padding-top: 16px;
+	margin-top: -218px;
+	margin-left: 5px;
+	padding-left: 7px;
+	width: 30%;
+}
+.ganesh-image{
+	margin-top: -82px;
+	width: 100%; 
+}
+.aside-items{
+	margin-bottom: 19px;
+	font-weight: bold;
+	margin-left: 5px;
+	font-size:13px;
+	text-align: right;
+}
+.note{
+	font-size: 5px;	
+}
+.aside-table{
+	display: table;
+	width: 100%;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+.aside-week-table-cell{
+	border: 1px solid #000000;	
+	table-layout: fixed;
+	display: table-cell; 
+}
+.aside-week-heading{
+    font-size: 11px;
+    padding: 3px;
+}
+.aside-days-table-cell{
+		table-layout: fixed;
+		display: table-cell; 
+		width: 9%;
+}
+.aside-days-heading{
+	border: 1px solid #000000;
+    font-size: 12px;
+    padding: 3px;
+}
