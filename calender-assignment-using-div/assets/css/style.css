@@ -1,0 +1,269 @@
+
+*{  
+	margin:0px;
+	padding:0px;
+}
+@font-face{
+	src: url( "../fonts/Yantramanav-Regular.ttf" );
+	font-family: mukta;
+	font-weight: 500;
+}
+
+body{
+	font-family: mukta;
+}
+
+.main-wrapper{
+	width:1200px;
+	margin: 0 auto;
+}
+/**thead section start here**/
+
+.table{
+	display: table;
+	width: 100%;
+}
+.header-image{
+	width: 100%; 
+}
+.thead{
+	display: table-header-group;
+}
+.tr {
+	display: table-row;
+}
+.month-heading{
+	display: table-cell;
+	font-size:30px;
+	table-layout: fixed;
+	width: 45%;
+	vertical-align: middle;
+	text-align: center;
+	
+}
+.heading{
+	background-color: #CEBE3F;
+	padding: 22px;
+	color: #2D3F79;
+}
+.marathi-month{ 
+	display: table-cell;
+	padding: 3px;
+	table-layout: fixed;
+	width: 17%;
+	font-size: 16px;
+	vertical-align: middle;
+	text-align: center;
+}
+.marathi-month-heading{
+	background-color:#FBB7C1;
+	padding: 20px;
+	color: #7C2D36;
+}
+.wish-text{
+	display: table-cell;
+	table-layout: fixed;
+	width: 33%;
+	font-size:35px;
+	text-align: center;
+	vertical-align: middle;
+}
+.wish-text-heading{
+	font-weight: 100;
+	background-color:#A7537B;
+	padding: 17px;
+	color: #ffffff;
+}
+.aside-section{
+	vertical-align: middle;
+	text-align: center;
+	margin-left: 5px;
+	margin-top: 2px; 
+}
+.aside-heading{
+	display: table-cell;
+	padding: 14px 25px 7px 27px;
+	font-size:80px;
+	background-color: #F6F524;
+	color: #335D3F;
+}
+/**thead section end here**/
+
+/**tbody section start here**/
+.tbody-table {
+	display:table;
+	width: 100%;
+}
+.week {
+	display: table-cell;	
+    table-layout: fixed;
+    width: 7%;
+    vertical-align: bottom;
+    text-align: center;
+	border-bottom: 2px solid #fffff2;
+	font-size:82px;
+	background-color: #3A52AE;
+	color: #ffffff;
+	border-right: 3px solid #ffffff;
+}
+.weekend {
+	background-color: #E64542;
+	color: #ffffff;
+}
+.days {
+	display: table-cell;
+    table-layout: fixed;
+    width: 17%;
+    text-align: right;
+	border-right: 1px solid #641E18;
+	border-top: 1px solid #641E18;	
+	border-left: 1px solid #641E18;	
+	border-bottom: 1px solid #641E18;	
+	padding: 4px 16px 0px 6px;
+	color: #28429F;
+}
+.highlight1{
+	background-color: #FCE0FC; 
+}
+.highlight2{
+	background-color: #FDDADB;
+}
+.highlight3{
+	background-color: #FCE0FC; 
+}
+.highlight4{
+	background-color: #FFFCD3;
+}
+.highlight5{
+	background-color: #D3FFFB;
+	
+}
+.active{
+	color: #D23630;
+}
+.text{
+	font-size:20px;
+}
+.inner-days-heading{
+	font-size:120px;
+	vertical-align: bottom;
+}
+.inner-month-heading{
+	display: block;
+    text-align: left;
+    font-size: 20px;
+    color: #4885A5;
+    font-weight: bold;
+	margin-bottom: 4px;
+}
+
+.text{
+	display: block;
+    text-align: left;
+    margin-bottom: 30px;
+    font-size: 15px;
+    color: #000000;
+    font-weight: bold;
+}
+.month-heading-wrapper{
+	vertical-align: top;	
+}
+.days-aside{
+	background-color: #F9A33C;
+	border-bottom: 1px solid #F9A33C;
+	padding-right:2px;
+	color: #2B8140;
+	padding-left: 1px;
+	width: 92%;
+	margin-left: 5px;
+	display: block; 
+	padding-top: 11px;
+}
+.note{
+	font-size: 25px;	
+	background-color:#85776C;
+	font-weight: bold;
+	padding: 7px 5px 5px 3px;
+	color: #000000;
+	border: 1px solid #3F0B0D;
+}
+.note-wrapper{
+	margin-top: 57px;
+}
+.ganesh-image{
+	vertical-align: text-top;
+	margin-left: 10px;
+}
+/** aside section start here**/
+
+.aside-items{
+	margin-bottom: 23px;
+	font-weight: bold;
+	margin-left: 5px;
+	font-size:13px;
+	text-align: right;
+	margin-right: 5px;
+}
+.aside-table{
+	display: table;
+    width: 80%;
+    margin-left: 5px;
+	background-color: #FEFAAA;
+}
+.aside-week-table-cell{
+	border-right: 1px solid #641E18;	
+	border-bottom: 1px solid #641E18;	
+	border-left: 1px solid #641E18;	
+	table-layout: fixed;
+	display: table-cell; 
+}
+.aside-week-heading{
+    font-size: 11px;
+    padding: 3px;
+}
+.aside-days-table-cell{
+	table-layout: fixed;
+	display: table-cell;
+	border-right: 1px solid #641E18;	
+	border-bottom: 1px solid #641E18;	
+    width: 15%;
+}
+.aside-days-heading{
+    font-size: 9px;
+	padding: 13px 3px 3px 3px;
+    width: 21%;
+}
+.aside-table-heading{
+	border: 1px solid #000000;
+    margin-bottom: -6px;
+    margin-left: 5px;
+    text-align: center;
+    font-size: 16px;
+	margin-top: 2px;
+	width: 86%;
+	background-color: red;
+	color: gold;
+	font-weight: bold;
+	padding: 10px 4px 10px 4px ;
+}
+.price{
+	border: 1px solid #000000;
+	padding: 5px;
+	text-align: center;
+	margin-left: 5px;
+	width: 84%;
+	background-color: #FCDA1B;
+	color: red;
+	font-weight: bold;
+}
+
+/** aside section end here**/
+
+/** footer section start here**/
+
+.footer-banner{
+	width: 100%;
+	margin-top: 5px;
+}
+
+/** footer section footer here**/
