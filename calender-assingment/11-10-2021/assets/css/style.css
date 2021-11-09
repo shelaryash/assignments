@@ -25,6 +25,7 @@ table {
     font-weight: bold;
     font-family: Sura, serif;
     margin-right: 6px;
+
 	margin-top: 4px;
 	margin-bottom: 10px;
 }
@@ -260,4 +261,8 @@ table {
 	margin-top: 10px;
 }
 
+<<<<<<< HEAD
 /*tfoot section end here*/
+=======
+/*tfoot section end here*/
+>>>>>>> fb6f16ad607323db310c90b242b930675eb4863f
