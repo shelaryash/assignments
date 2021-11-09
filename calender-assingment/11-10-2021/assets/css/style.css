@@ -91,7 +91,7 @@ table {
 }
 .days{
 	padding: 0px; 
-	border: 2px solid maroon;
+	border: 2px solid ;
 	vertical-align: top;
 	padding-top: 7px;
 	border-spacing: 20px 20px ;
@@ -130,8 +130,8 @@ table {
 }
 .wish-text{
 	background-color: #1D6ED9;
-	padding-top: 40px;
-	padding-bottom: 40px;
+	padding-top: 55px;
+	padding-bottom: 55px;
 	text-align: center;
 	color: #fff;
 	font-size: 23px; 
@@ -183,7 +183,7 @@ table {
 	margin-left: 5px;
 }
 .holiday-color{
-	color: red;
+	color:;
 } 
 .aside-section{
 	vertical-align: baseline;
@@ -203,7 +203,7 @@ table {
 	padding-right:10px;
 	padding-bottom:10px;
 	padding-top:10px;
-	border: 3px solid orange; 
+	border: 3px solid ; 
 	font-weight: bold;
 	margin-right: 6px;
 }
@@ -219,7 +219,7 @@ table {
 .price{
 	text-align: center;
     font-size: 26px;
-    color: red;
+    color: ;
     font-weight: bold;
     background-color: #FCDA1B;
     padding-top: 5px;
@@ -258,5 +258,3 @@ table {
 	width: 100%;
 	margin-top: 10px;
 }
-
-/*tfoot section end here*/
