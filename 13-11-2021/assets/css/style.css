@@ -1,0 +1,80 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: arial;
+    font-weight: 200;
+}
+@font-face{
+	src: url(" ../../Roboto-Thin.ttf");
+	font-family: roboto;
+	font-weight: bold;
+}
+.main-wrapper{
+	width: 800px;
+	margin: 0 auto;
+}
+.main-container{
+	background-color: #FEF2E6;
+	padding: 20px 100px;
+}
+.header-logo{
+	display: block;
+	margin: 0 auto;
+}
+.information-page{
+	background-color: #ffffff;
+	padding: 70px 0px;
+}
+.main-heading{
+	text-align: center;
+    font-size: 40px;
+    border-bottom: 2px solid #F0BEA0; 
+    width: 80%;
+    margin: 0 auto;
+    font-weight: bold;
+    font-family: roboto;
+	padding-bottom: 40px;
+}
+.first-image-information{
+    font-size: 23px;
+    margin: 20px 50px;
+    line-height: 1.7;
+    font-weight: 100;
+    font-family: arial;
+	color: #2D2824;
+}
+.first-heading-image{
+	width: 100%;
+	margin-top: 50px; 
+}
+.second-image-information{
+    font-size: 23px;
+    margin: 20px 50px;
+    line-height: 1.7;
+	color: #2D2824;
+}
+
+.second-heading-image{
+	width: 100%;
+}
+
+.botton-wrapper{
+	margin-top: -45px;
+}
+.shop-rove-button{
+	margin: 0 auto;
+	display: block;
+	padding: 30px 117px;
+	font-size: 22px; 
+	background-color: #2D2824;
+	color: #ffffff; 
+}
+.footer{
+	width: 100%;
+    text-align: center;
+    font-size: 21px;
+    margin: 90px 0px;
+    font-weight: 100;
+}

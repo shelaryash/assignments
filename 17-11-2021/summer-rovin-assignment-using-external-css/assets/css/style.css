@@ -1,0 +1,79 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+@font-face{
+	src: url(" ../../Roboto-Thin.ttf");
+	font-family: roboto;
+}
+.main-wrapper{
+	table-layout: fixed;
+	width: 800px;
+	padding: 50px 50px;
+	margin: 0 auto;	
+	background-color: #FEF2E6;
+}
+.information-section{
+	table-layout: fixed; 
+	width: 78%;	
+	padding-top: 25px;
+	padding-bottom: 60px;
+	background-color: #ffffff;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.logo-image{
+	display: block;
+	margin: 0 auto;
+}
+.main-heading-wrapper{
+	border-bottom: 2px solid #F0BEA0;
+	margin: 0 auto;
+	text-align: center;
+	width: 80%;
+}
+.main-heading{
+	text-transform: capitalize;
+	font-size: 35px;
+	margin-bottom: 20px;
+	font-family: roboto;
+}
+.first-image{
+	width: 100%;
+	padding-top:40px;
+}
+.first-banner-information{
+	font-size: 21px;
+    font-weight: 100;
+    line-height: 1.7;
+    margin: 20px;
+    color: #37322E;
+}
+.second-image{
+	width: 100%;
+}
+.second-banner-information{
+	font-size: 21px;
+    font-weight: 100;
+    line-height: 1.7;
+    margin: 20px;
+    color: #37322E;
+}
+.shop-rove-button-wrapper{
+	text-align: center;
+	margin-top: -43px;
+}
+.shop-rove-button{
+	padding: 30px 117px;
+    font-size: 22px;
+    text-transform: capitalize;
+    background-color: #2D2824;
+    color: #ffffff;
+    margin-bottom: 50px;
+}
+.footer{
+	text-align: center;
+	width: 40%;
+	margin: 0 auto;
+	font-size: 20px;
+}
