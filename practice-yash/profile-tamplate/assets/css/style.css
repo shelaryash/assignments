@@ -1,0 +1,139 @@
+*{ 
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: arial,sans-serif;
+	 
+}
+
+
+.logo-image{
+	margin: 25px 0px 25px 75px;
+}
+.ceo-image{
+	width: 51%;
+}
+.introduction-section{
+	background-color: #4f5dab;
+	
+}
+.bio-information{
+	padding-left: 70px;
+	margin-top: -79%;
+    margin-left: 51%;
+	background-color: #ffffff	;
+	width: 38%;
+	padding-top: 15%;
+	padding-right: 10px;
+	padding-bottom: 17%;
+}
+.name{
+	font-size: 65px;
+}
+.passion{
+	margin-top: 10px;
+	font-size: 30px;
+	font-weight: 100;
+	text-transform: capitalize;
+	letter-spacing: 2px;
+	color: #5f4cb1;
+}
+.bio{
+	font-size: 19px;
+	margin-top:10px;
+	color: #908783;
+	line-height: 1.5;
+}
+.phone{
+	margin-top: 25px;
+	font-size: 19px;
+	color: #181f2e;
+}
+.number{
+	margin-left: 5px;
+	color: #4f5dab;
+	font-weight: bold;
+}
+.email{
+	margin-top: 15px;
+	font-size: 19px;
+	color: #181f2e;
+}	
+.email-address{
+	margin-left: 5px;
+	color: #4f5dab;
+	font-weight: bold;
+	
+}
+.address{
+	margin-top: 15px;
+	font-size: 19px;
+	color: #181f2e;
+}
+.address-info{
+	margin-left:5px;
+}
+.birth-date{
+	margin-top: 15px;
+	font-size: 19px;
+	color: #181f2e;
+}
+.date{
+	margin-left: 5px;
+}
+.cv-download-button{
+	margin-top: 35px;
+	padding: 18px 115px 18px 115px;
+	border-radius: 9px ;
+	margin-bottom: 35px;
+	border: none;
+	color: #ffffff;
+	font-size: 20px;
+	background-color: #4f5dab;
+}
+.person-info-heading-wrapper{
+	padding-top: 65px;
+}
+.person-info-heading{
+	text-align: center;
+	font-size: 58px;
+}
+.person-info-sub-heading{
+	font-size: 22px	;
+	text-align: center;
+	margin-top: 20px;
+	line-height:1.7;
+}
+.bio-info-wrapper{
+	padding-top: 20px;
+	padding-left: 140px;	
+}
+.skill-heading{
+	font-size: 26px;
+	color: #4f5dab;
+}
+.skill-item{
+	list-style: none;
+	margin-top: 15px;
+	font-size:22px;
+	text-transform: capitalize;
+	color: #18111f	;
+}
+.list-style-plus{
+	font-size: 30px;
+	color: #9f9f9f;
+}
+.skills{
+	float: left;
+	margin-right: 170px;
+	margin-top: 80px;
+}
+.clear{
+	clear: both;
+	
+}
+.section{
+	margin: 0 auto;
+	
+}

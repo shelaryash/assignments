@@ -1,0 +1,145 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	width: 1400px;
+	padding: 20px 0px 0px 30px;
+}
+table  {
+	width: 100%;
+	
+}
+.table-wrapper{
+	margin-top: 10px;
+	
+}
+.header-image{
+	width: 100%;	
+}
+.month-name{
+	font-size:60px;
+	background-color: #CEBE3F;
+	padding:10px 0px 10px 0px;
+	width:41%;
+	text-align: center;
+	color:#0E1D70;
+	font-weight: bold;
+	font-family: Sura, serif;
+}
+.marathi-month-name{
+	font-size: 33px;
+	width: 17%;
+	background-color: #FBB7C1;
+	text-align: center;
+}
+.heading{
+	width:35%;
+	font-size: 75px;
+	text-align: center;
+	background-color: #A7537B;
+	color: #fff;
+}
+.aside{
+	width:18%;
+}
+.week{
+  width: 8%;
+  height: 205px;
+  text-align: center;
+  font-size: 105px;
+  font-weight: 100;
+  background-color: #536FCA;
+  color:#fff;
+}
+.days{
+	width: 16%;
+	padding: 0px;
+	border: 2px solid maroon;
+}
+.weekend{
+  width: 8%;
+  height: 220px;
+  text-align: center;
+  font-size: 105px;
+  font-weight: 100;
+  background-color:#E1403D;
+  color: #fff;
+}
+.ganesh-img{
+	height:214px;
+	display: block;
+	margin: 0 auto;
+}
+.advertisement {
+	margin: 2px;
+	height: 415px;
+}
+.days-heading{
+	font-size:100px;
+	vertical-align: bottom;
+	margin-top: 5px;
+	text-align: right;
+	font-weight: 100;
+	color:#293C8A;
+}
+.text{
+	color: #4885A5;
+	font-weight: bold; 
+	font-size: 20px;
+	margin-left: 5px;
+}
+.marathi-month{
+	font-weight: bold; 
+	font-size: 15px;
+	margin-left: 5px;
+}
+.aside-heading{
+	text-align: center;
+	font-size: 95px;
+	font-weight: 100;
+	background-color: #F6F524;
+	margin-left: 5px;
+}
+.tfoot-advertisemen{
+	width: 100%;
+	
+}
+.holiday-color{
+	color: red;
+} 
+.aside-section{
+	vertical-align: baseline;
+}
+.aside-items{
+	list-style: none;
+	text-align: right;
+    margin-top: 16px;
+}
+.aside-items-wrapper{
+	margin:5px;
+	background-color: #FDA944;
+	font-size: 14px;
+	padding:10px;
+}
+.inner-table-heading{
+	text-align: center;
+    background-color: #ED3A29;
+    padding: 4px;
+    font-size: 20px;
+    color: #FCA13F;
+    font-weight: bolder;
+}
+.price{
+	text-align: center;
+    font-size: 26px;
+    color: red;
+    font-weight: bold;
+    background-color: #FCDA1B;
+    padding-top: 5px;
+	margin-left: 3px;
+}
+.inner-table-days-heading{
+	color: #0BA8E6;
+	
+}
