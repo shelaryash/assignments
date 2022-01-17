@@ -1,0 +1,95 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+h1{
+	margin-bottom:20px;
+	text-align: center;
+}
+.solid{
+	width:40%;
+	height: 250px;
+	border-style:solid;
+	margin:50px;
+}
+.dotted{
+	width:40%;
+	height: 250px;
+	border-style:dotted;
+	margin:50px;
+}
+.dashed{
+	width:40%;
+	height: 250px;
+	border-style:dashed;
+	margin:50px;
+}
+.double{
+	width:40%;
+	height: 250px;
+	border-style:double;
+	margin:50px;
+}
+.groove{
+	width:40%;
+	height: 250px;
+	border-style:groove;
+	margin:50px;
+}
+.ridge{
+	width:40%;
+	height: 250px;
+	border-style:ridge;
+	margin:50px;
+}
+.inset{
+	width:40%;
+	height: 250px;
+	border-style:inset;
+	margin:50px;
+}
+.outset{
+	width:40%;
+	height: 250px;
+	border-style:outset;
+	margin:50px;
+}
+.border-top-color{
+	width:40%;
+	height: 250px;
+	border-top-color: red;
+	border-top-style: solid;
+	margin:50px;
+}
+.border-right-color{
+	width:40%;
+	height: 250px;
+	border-right-color: green;
+	border-right-style: solid;
+	margin:50px;
+}
+.border-bottom-color{
+	width:40%;
+	height: 250px;
+	border-bottom-color: maroon;
+	border-bottom-style: solid;
+	margin:50px;
+}
+.border-left-color{
+	width:40%;
+	height: 250px;
+	border-left-color: maroon;
+	border-left-style: solid;
+	margin:50px;
+}
+.border-radius{
+	width:40%;
+	height: 250px;
+	border-radius: 50%;
+	border-style: solid;
+	margin:50px;
+}
+
+
+
+
