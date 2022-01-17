@@ -1,0 +1,109 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+@font-face{
+	font-family:Playfair Display, serif;
+	src:url(assets/fonts/PlayfairDisplay-SemiBold.ttf);
+	font-weight:600;
+}
+/**header section start here**/
+header{
+	padding: 20px 0px 20px 100px;
+}
+.main-section{
+	width: 1170px;
+	position:relative;
+}
+.secretary-banner{
+	height: 950px;
+}
+.heading-banner-section{
+	float: right;
+	width: 50%;
+}
+.secretary-information{
+	position: relative;
+	left: 17%;
+	padding-top:10px;
+}	
+.clear{
+	clear: both;
+}
+/**header section end here**/
+/** main section start here**/
+.heading{
+	width: 499px;
+	font-size:65px;
+	background-color: #ffffff;
+	margin-top:100px;
+	text-align: right;
+	padding: 20px 15px 20px 0px ;
+	font-weight:600;
+	font-family:Playfair Display, serif;
+}
+.sub-heading{
+	width: 499px;
+	font-size: 40px; 
+	font-weight: 100;
+	background-color: #ffffff;
+	margin-top: 20px;
+	text-align: right;
+	padding: 10px 15px 10px 0px;
+}
+.secretary-bio{
+	width: 499px;
+	margin-top: 40px;
+	background-color: #ffffff;
+	text-align: right;
+	padding: 20px 15px 20px 0px;
+	font-size:22px;
+	font-family: arial, sans-serif;
+	line-height: 43px;
+	font-weight: 100;
+}
+.information-button{
+	margin-top: 25px;
+    padding: 20px 65px 20px 65px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    background-color: #E86E42;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    margin-bottom: 50px;
+}
+.active{
+	text-decoration: none;
+	color:#E96E4D;
+}
+button:hover{
+	background-color: #000000;
+	color:#ffffff;
+}
+.website-name{
+	margin-top:10px;
+}
+/**main section end here**/
+/**footer sectionart here**/
+
+.footer-text{ 
+	text-align: center;
+	background-color:#333333;
+	color: #ffffff;
+	padding: 30px 60px 30px 60px;
+	font-family: arial,sans-serif;
+}
+.website-link{
+	margin-top: 100px;
+	font-weight: 100;
+}
+.link{
+	color:#D7B07C;
+}
+.button-link{
+	color:#ffffff;
+	text-decoration: none;
+	
+}
+/**footer section end here**/
